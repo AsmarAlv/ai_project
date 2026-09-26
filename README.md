@@ -4,11 +4,7 @@
 
 FGSM attacks, FGSM adversarial training, and cross-architecture transferability
 
-![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?logo=pytorch&logoColor=white)
-![Dataset](https://img.shields.io/badge/Dataset-CIFAR--10-2E86C1)
-![Attack](https://img.shields.io/badge/Attack-FGSM-8E44AD)
-![Platform](https://img.shields.io/badge/Run%20on-Kaggle%20T4-20BEFF?logo=kaggle&logoColor=white)
-
+<b>Tools:</b> PyTorch · CIFAR-10 · FGSM · Kaggle (T4 GPU)<br>
 <b>Authors:</b> Asmar Aliyeva, Ilaha Mustafayeva, Nazrin Abdullayeva<br>
 <b>Affiliation:</b> French-Azerbaijani University (UFAZ)<br>
 <b>Supervisor:</b> Prof. Rauf Fatali<br>
