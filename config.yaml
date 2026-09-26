@@ -2,7 +2,7 @@
 dataset:
   mean: [0.4914, 0.4822, 0.4465]
   std:  [0.2023, 0.1994, 0.2010]
-  root: /content/drive/MyDrive/cifar_project/datasets
+  root: /kaggle/working/cifar_project/datasets
   num_classes: 10
   classes: [plane, car, bird, cat, deer, dog, frog, horse, ship, truck]
 
