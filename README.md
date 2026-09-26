@@ -88,7 +88,7 @@ Of the test images MobileNetV2 classified correctly, 21.8% were misclassified af
 
 ## Discussion
 
-**RQ1.** The standard ResNet-18 has almost no robustness to FGSM. At ε = 2/255 its accuracy already drops from 93.81% to 32.75%, and at ε = 8/255 it reaches 14.87%.
+**RQ1.** The standard ResNet-18 has almost no robustness to FGSM. At ε = 2/255 its accuracy already drops from 93.81% to 32.75%, and at ε = 8/255 it falls to 14.87%.
 
 **RQ2.** FGSM adversarial training did not give real robustness. At its training budget (ε = 8/255) the FGSM-AT model reaches 99.46%, which is higher than its own clean accuracy of 92.99%. At the smaller budgets 2/255 and 4/255, however, it only reaches 34.12% and 40.30%. A robust model would do better against weaker attacks, not worse.
 
@@ -151,6 +151,8 @@ Model weights are not included in the repository.
 - All results come from a single run (seed 42).
 - MobileNetV2 reaches only 79.63% on 32×32 images, since it was designed for 224×224 inputs.
 - The training curves are plotted from the values logged during the original training runs.
+
+We continued this work in a follow-up project on traffic sign recognition ([GTSRB](https://github.com/AsmarAlv/led_project)), which adds PGD evaluation, PGD adversarial training and a regularizer against catastrophic overfitting.
 
 ## Note on the course report
 
