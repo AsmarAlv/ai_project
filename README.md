@@ -4,7 +4,7 @@
 
 FGSM attacks, FGSM adversarial training, and cross-architecture transferability
 
-<b>Tools:</b> PyTorch · CIFAR-10 · FGSM · Kaggle (T4 GPU)<br>
+<b>Tools:</b> PyTorch | CIFAR-10 | FGSM | Kaggle (T4 GPU)<br>
 <b>Authors:</b> Asmar Aliyeva, Ilaha Mustafayeva, Nazrin Abdullayeva<br>
 <b>Affiliation:</b> French-Azerbaijani University (UFAZ)<br>
 <b>Supervisor:</b> Prof. Rauf Fatali<br>
